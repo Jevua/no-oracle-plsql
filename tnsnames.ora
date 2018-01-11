@@ -1,0 +1,220 @@
+ORCL_189 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.45.53.189)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = orcl)
+    )
+  )
+ORCL_184=
+  (DESCRIPTION=
+    (ADDRESS_LIST=
+      (ADDRESS=(PROTOCOL=TCP)(HOST=10.45.44.184)(PORT=1521))
+    )
+    (CONNECT_DATA=
+      (SERVER =DEDICATED)
+      (SERVICE_NAME=ztedb1)
+    )
+  )
+GURES_D_189 = 
+    (DESCRIPTION =
+       (ADDRESS_LIST =
+          (ADDRESS = (PROTOCOL = TCP)(HOST = 10.45.53.189)(PORT = 1521))
+       )
+       (CONNECT_DATA =
+            (SERVER = DEDICATED)
+            (SERVICE_NAME = orcl)
+       )
+    )  
+restest_197=
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 136.5.76.197)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = restest)
+    )
+ )
+RESTW_D_BJ =
+ (DESCRIPTION =
+     (ADDRESS_LIST =
+       (ADDRESS = (PROTOCOL = TCP)(HOST = 123.126.34.82)(PORT = 1520))
+     )
+     (CONNECT_DATA =
+        (SERVER = DEDICATED)
+ (SERVICE_NAME = orcl)
+     )
+   )
+CQRES =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 136.5.76.197)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = restest)
+    )
+  )
+ORCL =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.45.53.189)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = orcl)
+    )
+  )
+
+RESTW_T_BJ =
+ (DESCRIPTION =
+     (ADDRESS_LIST =
+       (ADDRESS = (PROTOCOL = TCP)(HOST = 123.126.34.82)(PORT = 1525))
+     )
+     (CONNECT_DATA =
+        (SERVER = DEDICATED)
+ (SERVICE_NAME = orcl)
+     )
+   )
+smrh_dev =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 132.228.237.134)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = dxsanma)
+      (SERVER = DEDICATED)
+    )
+  )
+restest_197=
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 136.5.76.197)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = restest)
+    )
+  )
+resweb_unicom=
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.45.53.189)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = orcl)
+    )
+  )
+TW_PUB_XM =
+ (DESCRIPTION =
+     (ADDRESS_LIST =
+       (ADDRESS = (PROTOCOL = TCP)(HOST = 10.45.53.189)(PORT = 1521))
+     )
+     (CONNECT_DATA =
+        (SERVER = DEDICATED)
+ (SERVICE_NAME = orcl)
+     )
+   )
+RESREAD =
+ (DESCRIPTION =
+     (ADDRESS_LIST =
+       (ADDRESS = (PROTOCOL = TCP)(HOST = 123.126.34.170)(PORT = 51521))
+     )
+     (CONNECT_DATA =
+        (SERVER = DEDICATED)
+ (SERVICE_NAME = resread)
+     )
+   )
+RESDB_JS=
+  (DESCRIPTION =		
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 132.225.150.61)(PORT = 9999))		
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 132.225.150.62)(PORT = 9999))		
+    (CONNECT_DATA =		
+      (SERVER = DEDICATED)		
+      (SERVICE_NAME = resdb)		
+    )		
+  )
+RESDB_JS61=
+  (DESCRIPTION =		
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 132.225.150.61)(PORT = 9999))				
+    (CONNECT_DATA =		
+      (SERVER = DEDICATED)		
+      (SERVICE_NAME = resdb)		
+    )		
+  )
+RESDB_JS62=
+  (DESCRIPTION =		
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 132.225.150.62)(PORT = 9999))				
+    (CONNECT_DATA =		
+      (SERVER = DEDICATED)		
+      (SERVICE_NAME = resdb)		
+    )		
+  )
+RES178=
+  (DESCRIPTION =		
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.45.59.178)(PORT = 1521))				
+    (CONNECT_DATA =		
+      (SERVER = DEDICATED)		
+      (SERVICE_NAME = res178)		
+    )		
+  )
+res168 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.45.59.168)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = res168)
+    )
+  )
+RESDB_1 =
+ (DESCRIPTION =
+     (ADDRESS_LIST =
+       (ADDRESS = (PROTOCOL = TCP)(HOST = 123.126.34.170)(PORT = 1526))
+     )
+     (CONNECT_DATA =
+        (SERVER = DEDICATED)
+ 	(SERVICE_NAME = resdb)
+     )
+   )
+GGK_CS =
+ (DESCRIPTION =
+     (ADDRESS_LIST =
+       (ADDRESS = (PROTOCOL = TCP)(HOST = 123.126.34.92)(PORT = 1821))
+     )
+     (CONNECT_DATA =
+        (SERVER = DEDICATED)
+ 	(SERVICE_NAME = daptest)
+     )
+   )
+ggkdb =
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+      (FAILOVER=ON)
+      (LOAD_BALANCE=OFF)
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.9.26)(PORT = 1527))
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.9.27)(PORT = 1527))
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 123.126.34.92)(PORT = 11527))
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 123.126.34.92)(PORT = 10527))
+   )
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = ggkdb)
+    )
+  )
+res189 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.45.59.189)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = orcl)
+    )
+  )
+res190 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.45.59.190)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = orcl)
+    )
+  )
